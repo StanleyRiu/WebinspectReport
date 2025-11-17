@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.csv\shell\WebinspectReport]
+"MUIVerb"="WebinspectReport"
+"Icon"="D:\\Develop\\eclipse-workspace\\WebinspectReport\\WebinspectReport.exe"
+
+[HKEY_CLASSES_ROOT\SystemFileAssociations\.csv\shell\WebinspectReport\command]
+@="D:\\Develop\\eclipse-workspace\\WebinspectReport\\WebinspectReport.exe \"%1\""
