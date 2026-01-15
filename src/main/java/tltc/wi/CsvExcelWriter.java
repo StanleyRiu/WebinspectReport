@@ -165,6 +165,7 @@ public class CsvExcelWriter {
 
 		for (int r=0; r < sheet.getLastRowNum(); r++) {
 			xrow = sheet.getRow(r);
+			if (xrow == null) continue;
 /*
 			System.out.print(r+"\t");//xrow.getLastCellNum());
 			Iterator<Cell> it = xrow.cellIterator();
